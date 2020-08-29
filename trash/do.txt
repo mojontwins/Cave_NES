@@ -1,0 +1,318 @@
+Map orig.MAP read. 5760 tiles.
+
+Tile count
++ Tile 00 x 2331
++ Tile 01 x 183
++ Tile 02 x 171
++ Tile 03 x 991
++ Tile 04 x 137
++ Tile 05 x 157
++ Tile 06 x 412
++ Tile 07 x 80
++ Tile 08 x 119
++ Tile 09 x 180
++ Tile 0A x 23
++ Tile 0B x 0
++ Tile 0C x 269
++ Tile 0D x 66
++ Tile 0E x 50
++ Tile 0F x 18
++ Tile 10 x 6
++ Tile 11 x 7
++ Tile 12 x 1
++ Tile 13 x 1
++ Tile 14 x 1
++ Tile 15 x 10
++ Tile 16 x 3
++ Tile 17 x 3
++ Tile 18 x 6
++ Tile 19 x 84
++ Tile 1A x 81
++ Tile 1B x 105
++ Tile 1C x 59
++ Tile 1D x 15
++ Tile 1E x 13
++ Tile 1F x 2
++ Tile 20 x 43
++ Tile 21 x 37
++ Tile 22 x 16
++ Tile 23 x 16
++ Tile 24 x 10
++ Tile 25 x 1
++ Tile 26 x 16
++ Tile 27 x 20
++ Tile 28 x 0
++ Tile 29 x 0
++ Tile 2A x 0
++ Tile 2B x 0
++ Tile 2C x 0
++ Tile 2D x 0
++ Tile 2E x 0
++ Tile 2F x 0
++ Tile 30 x 7
++ Tile 31 x 0
++ Tile 32 x 3
++ Tile 33 x 4
++ Tile 34 x 3
++ Tile 35 x 1
+This is, maxT different tiles.
+
+Bubble Sort'd (minus 0)
++ Tile 00 -> 00 x 2331
++ Tile 01 -> 03 x 991
++ Tile 02 -> 06 x 412
++ Tile 03 -> 0C x 269
++ Tile 04 -> 01 x 183
++ Tile 05 -> 09 x 180
++ Tile 06 -> 02 x 171
++ Tile 07 -> 05 x 157
++ Tile 08 -> 04 x 137
++ Tile 09 -> 08 x 119
++ Tile 0A -> 1B x 105
++ Tile 0B -> 19 x 84
++ Tile 0C -> 1A x 81
++ Tile 0D -> 07 x 80
++ Tile 0E -> 0D x 66
++ Tile 0F -> 1C x 59
++ Tile 10 -> 0E x 50
++ Tile 11 -> 20 x 43
++ Tile 12 -> 21 x 37
++ Tile 13 -> 0A x 23
++ Tile 14 -> 27 x 20
++ Tile 15 -> 0F x 18
++ Tile 16 -> 22 x 16
++ Tile 17 -> 23 x 16
++ Tile 18 -> 26 x 16
++ Tile 19 -> 1D x 15
++ Tile 1A -> 1E x 13
++ Tile 1B -> 15 x 10
++ Tile 1C -> 24 x 10
++ Tile 1D -> 11 x 7
++ Tile 1E -> 30 x 7
++ Tile 1F -> 10 x 6
++ Tile 20 -> 18 x 6
++ Tile 21 -> 33 x 4
++ Tile 22 -> 16 x 3
++ Tile 23 -> 17 x 3
++ Tile 24 -> 32 x 3
++ Tile 25 -> 34 x 3
++ Tile 26 -> 1F x 2
++ Tile 27 -> 12 x 1
++ Tile 28 -> 13 x 1
++ Tile 29 -> 14 x 1
++ Tile 2A -> 25 x 1
++ Tile 2B -> 35 x 1
++ Tile 2C -> 0B x 0
++ Tile 2D -> 28 x 0
++ Tile 2E -> 29 x 0
++ Tile 2F -> 2A x 0
++ Tile 30 -> 2B x 0
++ Tile 31 -> 2C x 0
++ Tile 32 -> 2D x 0
++ Tile 33 -> 2E x 0
++ Tile 34 -> 2F x 0
++ Tile 35 -> 31 x 0
+Map file reordered.
+
+Map file level1.map written
+
+Tileset orig.png read.
++ Image size 256x64.
++ estimated tile count (I'm blind) = 64
+  which seems right...
+
+Tileset reordered.
+
+Tileset ts.png written.
+
+Processing script orig.spt
+Writing script level1.spt
+With changes: 
+ + rewriting 		SET TILE (5, #$_A) = 13
+ + into      		SET TILE (5, #$_A) = 14
+ + rewriting 		SET TILE (5, #$_A) = 0
+ + into      		SET TILE (5, #$_A) = 0
+ + rewriting 		SET TILE (9, #$_C) = 13
+ + into      		SET TILE (9, #$_C) = 14
+ + rewriting 		SET TILE (9, #$_C) = 0
+ + into      		SET TILE (9, #$_C) = 0
+ + rewriting 		SET TILE (7, #$_B) = 13
+ + into      		SET TILE (7, #$_B) = 14
+ + rewriting 		SET TILE (7, #$_B) = 0
+ + into      		SET TILE (7, #$_B) = 0
+ + rewriting 		SET TILE (9, #$_C) = 13
+ + into      		SET TILE (9, #$_C) = 14
+ + rewriting 		SET TILE (9, #$_C) = 0
+ + into      		SET TILE (9, #$_C) = 0
+ + rewriting 		SET TILE (5, #$_A) = 13
+ + into      		SET TILE (5, #$_A) = 14
+ + rewriting 		SET TILE (5, #$_A) = 0
+ + into      		SET TILE (5, #$_A) = 0
+ + rewriting 		SET TILE (7, #$_B) = 13
+ + into      		SET TILE (7, #$_B) = 14
+ + rewriting 		SET TILE (7, #$_B) = 0
+ + into      		SET TILE (7, #$_B) = 0
+ + rewriting 			1, 5, 0
+ + into      			1, 5, 0
+ + rewriting 			1, 6, 0
+ + into      			1, 6, 0
+ + rewriting 		SET TILE (9, 6) = 11
+ + into      		SET TILE (9, 6) = 44
+ + rewriting 			6, 4, 10
+ + into      			6, 4, 19
+ + rewriting 			6, 5, 10
+ + into      			6, 5, 19
+ + rewriting 			6, 6, 10
+ + into      			6, 6, 19
+ + rewriting 		SET TILE (3, 6) = 11
+ + into      		SET TILE (3, 6) = 44
+ + rewriting 			1, 2, 0
+ + into      			1, 2, 0
+ + rewriting 			1, 3, 0
+ + into      			1, 3, 0
+ + rewriting 			6, 4, 14
+ + into      			6, 4, 16
+ + rewriting 			6, 5, 13
+ + into      			6, 5, 14
+ + rewriting 			4, 2, 49
+ + into      			4, 2, 53
+ + rewriting 			6, 4, 0
+ + into      			6, 4, 0
+ + rewriting 			6, 5, 0
+ + into      			6, 5, 0
+ + rewriting 			4, 2, 48
+ + into      			4, 2, 30
+ + rewriting 			12, 2, 7
+ + into      			12, 2, 13
+ + rewriting 			12, 3, 8
+ + into      			12, 3, 9
+ + rewriting 			12, 4, 7
+ + into      			12, 4, 13
+ + rewriting 			12, 5, 8
+ + into      			12, 5, 9
+ + rewriting 			12, 6, 7
+ + into      			12, 6, 13
+ + rewriting 			12, 7, 0
+ + into      			12, 7, 0
+ + rewriting 			8, 10, 49
+ + into      			8, 10, 53
+ + rewriting 			12, 2, 8
+ + into      			12, 2, 9
+ + rewriting 			12, 3, 7
+ + into      			12, 3, 13
+ + rewriting 			12, 4, 8
+ + into      			12, 4, 9
+ + rewriting 			12, 5, 7
+ + into      			12, 5, 13
+ + rewriting 			12, 6, 8
+ + into      			12, 6, 9
+ + rewriting 			12, 7, 7
+ + into      			12, 7, 13
+ + rewriting 			8, 10, 48
+ + into      			8, 10, 30
+ + rewriting 			9, 2, 49
+ + into      			9, 2, 53
+ + rewriting 			3, 0, 0
+ + into      			3, 0, 0
+ + rewriting 			4, 0, 0
+ + into      			4, 0, 0
+ + rewriting 			5, 0, 0
+ + into      			5, 0, 0
+ + rewriting 			3, 10, 49
+ + into      			3, 10, 53
+ + rewriting 			5, 10, 0
+ + into      			5, 10, 0
+ + rewriting 			6, 10, 0
+ + into      			6, 10, 0
+ + rewriting 			7, 10, 0
+ + into      			7, 10, 0
+ + rewriting 			8, 10, 0
+ + into      			8, 10, 0
+ + rewriting 			9, 10, 0
+ + into      			9, 10, 0
+ + rewriting 			10, 10, 0
+ + into      			10, 10, 0
+ + rewriting 			11, 10, 0
+ + into      			11, 10, 0
+ + rewriting 			5, 9, 10
+ + into      			5, 9, 19
+ + rewriting 			5, 10, 10
+ + into      			5, 10, 19
+ + rewriting 			7, 9, 10
+ + into      			7, 9, 19
+ + rewriting 			7, 10, 10
+ + into      			7, 10, 19
+ + rewriting 			9, 9, 10
+ + into      			9, 9, 19
+ + rewriting 			9, 10, 10
+ + into      			9, 10, 19
+ + rewriting 			2, 6, 0
+ + into      			2, 6, 0
+ + rewriting 			2, 7, 0
+ + into      			2, 7, 0
+ + rewriting 			1, 5, 0
+ + into      			1, 5, 0
+ + rewriting 			2, 5, 0
+ + into      			2, 5, 0
+ + rewriting 			3, 5, 0
+ + into      			3, 5, 0
+ + rewriting 			4, 5, 0
+ + into      			4, 5, 0
+ + rewriting 			5, 5, 0
+ + into      			5, 5, 0
+ + rewriting 			6, 5, 0
+ + into      			6, 5, 0
+ + rewriting 			7, 5, 0
+ + into      			7, 5, 0
+ + rewriting 			8, 5, 0
+ + into      			8, 5, 0
+ + rewriting 			9, 5, 0
+ + into      			9, 5, 0
+ + rewriting 			10, 5, 0
+ + into      			10, 5, 0
+ + rewriting 			11, 5, 0
+ + into      			11, 5, 0
+ + rewriting 			8, 6, 0
+ + into      			8, 6, 0
+ + rewriting 			9, 6, 0
+ + into      			9, 6, 0
+ + rewriting 			8, 7, 7
+ + into      			8, 7, 13
+ + rewriting 			9, 7, 21
+ + into      			9, 7, 27
+ + rewriting 			1, 10, 49
+ + into      			1, 10, 53
+ + rewriting 		SET TILE (3, 5) = 11
+ + into      		SET TILE (3, 5) = 44
+ + rewriting 		SET TILE (6, 5) = 11
+ + into      		SET TILE (6, 5) = 44
+ + rewriting 		SET TILE (8, 5) = 11
+ + into      		SET TILE (8, 5) = 44
+ + rewriting 		SET TILE (11, 5) = 11
+ + into      		SET TILE (11, 5) = 44
+ + rewriting 		SET TILE (11, 5) = 11
+ + into      		SET TILE (11, 5) = 44
+ + rewriting 		SET TILE (8, 5) = 11
+ + into      		SET TILE (8, 5) = 44
+ + rewriting 		SET TILE (6, 5) = 11
+ + into      		SET TILE (6, 5) = 44
+ + rewriting 		SET TILE (3, 5) = 11
+ + into      		SET TILE (3, 5) = 44
+ + rewriting 		SET TILE (3, 5) = 11
+ + into      		SET TILE (3, 5) = 44
+ + rewriting 		SET TILE (6, 5) = 11
+ + into      		SET TILE (6, 5) = 44
+ + rewriting 		SET TILE (9, 5) = 11
+ + into      		SET TILE (9, 5) = 44
+ + rewriting 		SET TILE (12, 5) = 11
+ + into      		SET TILE (12, 5) = 44
+ + rewriting 		SET TILE (12, 5) = 11
+ + into      		SET TILE (12, 5) = 44
+ + rewriting 		SET TILE (9, 5) = 11
+ + into      		SET TILE (9, 5) = 44
+ + rewriting 		SET TILE (6, 5) = 11
+ + into      		SET TILE (6, 5) = 44
+ + rewriting 		SET TILE (3, 5) = 11
+ + into      		SET TILE (3, 5) = 44
+Done with the script.
+Done.

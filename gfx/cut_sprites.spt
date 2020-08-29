@@ -1,0 +1,31 @@
+NOSKIPEMPTY
+MAPFILE ..\dev\assets\spritedata.h
+
+OPEN bits.png
+PALS palss.png
+CHARSET 0, 0, 3, 1
+
+OPEN ss.png
+PALS palss.png
+LABEL sspla
+METASPRITESET 0, 0, 2, 3, 6, 1, -4, -8 FLIPPED 
+LABEL ssplb
+METASPRITESET 0, 3, 2, 3, 7, 1, -4, -8
+
+LABEL ssena
+METASPRITESET 0, 6, 2, 3, 2, 1, 0, -8 FLIPPED
+LABEL ssenb
+METASPRITESET 4, 6, 2, 3, 4, 1, 0, -8
+LABEL ssenc
+METASPRITESET 0, 10, 2, 2, 8, 1, 0, 0
+LABEL ssend
+METASPRITESET 7, 14, 3, 2, 3, 1, -4, 0
+
+LABEL ssit
+METASPRITESET 0, 12, 2, 2, 8, 2, 0, 0, 11
+
+SKIPEMPTY
+OPEN ssboss.png
+PALS palss.png
+LABEL ssboss
+METASPRITESET 0, 0, 4, 4, 2, 1, -8, 0 FLIPPED

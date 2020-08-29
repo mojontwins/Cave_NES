@@ -1,0 +1,32 @@
+
+PALS palts.png
+
+OPEN font.png
+CHARSET 0, 0, 32, 2
+
+OPEN propeller.png
+CHARSET 0, 0, 4, 1
+
+MAPFILE ..\dev\work\dummy.h
+
+OPEN hud.png
+PALS palts.png
+LABEL hud
+MAPPED 0, 0, 2, 2, 16, 2
+
+MAPFILE ..\dev\assets\tiledata.h
+
+OPEN ts1.png
+PALS palts1.png
+LABEL ts1
+MAPPED 0, 0, 2, 2, 16, 4, 60
+
+OPEN ts0.png
+PALS palts0.png
+LABEL ts0
+MAPPED 0, 0, 2, 2, 16, 4, 53
+
+OPEN ts2.png
+PALS palts2.png
+LABEL ts2
+MAPPED 0, 0, 2, 2, 16, 4, 53
